@@ -14,7 +14,291 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/resume.html"></include>
+    <main class="main">
+      <div class="resume">
+        <aside class="resume-sidebar">
+          <img
+            class="user-photo"
+            src="./images/photo.jpg"
+            alt="photo"
+            height="352px"
+            width="370px"
+          />
+          <section class="contacts">
+            <h2 class="contacts__title">Contacts</h2>
+            <address class="contacts-address">
+              <ul class="contacts-address__list">
+                <li class="contacts-address__item">
+                  <span class="contacts-address__symbol">C:</span>
+                  <a
+                    style="text-decoration: none"
+                    class="contacts-address__contact"
+                    href="tel:+380681193663"
+                    >+38 068 119 36 63</a
+                  >
+                </li>
+                <li class="contacts-address__item">
+                  <span class="contacts-address__symbol">E:</span>
+                  <a
+                    class="contacts-address__contact"
+                    href="mail:orezvaniuk@gmail.com"
+                    >orezvaniuk@gmail.com</a
+                  >
+                </li>
+                <li class="contacts-address__item">
+                  <p class="contacts-address__contact">Kyiv, Ukraine</p>
+                </li>
+              </ul>
+            </address>
+            <ul class="social-list">
+              <li class="social-list__item">
+                <a
+                  class="social-list__link"
+                  target="_blank"
+                  href="https://www.facebook.com/"
+                >
+                  <svg class="social-list__icon" height="20px" width="20px">
+                    <use href="./images/symbol-defs.svg#icon-github"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a
+                  class="social-list__link"
+                  target="_blank"
+                  href="https://www.facebook.com/"
+                >
+                  <svg class="social-list__icon" height="20px" width="20px">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a
+                  class="social-list__link"
+                  target="_blank"
+                  href="https://www.facebook.com/"
+                >
+                  <svg class="social-list__icon" height="20px" width="20px">
+                    <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a
+                  class="social-list__link"
+                  target="_blank"
+                  href="https://www.facebook.com/"
+                >
+                  <svg class="social-list__icon" height="20px" width="20px">
+                    <use href="./images/symbol-defs.svg#icon-linkedin2"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="tech-skills">
+            <h2 class="tech-skills__title">Tech Skills</h2>
+            <ul class="tech-skills__list">
+              <li class="tech-skills__item">
+                <span class="tech-skills__item-span">HTML</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__item-span">CSS,SCSS</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__item-span">WebPack</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__item-span">JavaScript</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__item-span">React.js</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__item-span">TypeScript</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__item-span">Node.js</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__item-span">GIT</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__item-span">Figma</span>
+              </li>
+            </ul>
+          </section>
+          <section class="soft-skills">
+            <h2 class="soft-skills__title">
+              <span class="soft-skills__item-span">Soft Skills</span>
+            </h2>
+            <ul class="soft-skills__list">
+              <li class="soft-skills__item">
+                <span class="soft-skills__item-span">Scrum</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__item-span">Agile</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__item-span">GTD</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__item-span">Teamword</span>
+              </li>
+            </ul>
+          </section>
+        </aside>
+        <div class="resume-info">
+          <section class="hero">
+            <span class="hero__text">Front-End-Developer</span>
+            <h1 class="hero__title">Oles Rezvaniuk</h1>
+            <p class="hero__info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+              accumsan lacus vel facilisis.
+            </p>
+          </section>
+          <section class="projects">
+            <h2 class="projects__title">Projects</h2>
+            <ol class="projects__list">
+              <li class="projects__item">
+                <span class="projects__item-span"
+                  >https://hellenglish.goit.global/.........</span
+                >[ <span class="projects__item-tech">HTML5,CSS3</span> ]
+              </li>
+              <li class="projects__item">
+                <span class="projects__item-span"
+                  >https://hellenglish.goit.global/.........</span
+                >[ <span class="projects__item-tech">HTML5,CSS3</span> ]
+              </li>
+              <li class="projects__item">
+                <span class="projects__item-span"
+                  >https://hellenglish.goit.global/.........</span
+                >[ <span class="projects__item-tech">HTML5,CSS3</span> ]
+              </li>
+              <li class="projects__item">
+                <span class="projects__item-span"
+                  >https://hellenglish.goit.global/.........</span
+                >[ <span class="projects__item-tech">HTML5,CSS3</span> ]
+              </li>
+            </ol>
+          </section>
+          <section class="exp">
+            <h2 class="exp__title">Work Experience</h2>
+            <ul class="exp__works-list">
+              <li class="exp__works-list__item">
+                <p class="exp__text">
+                  Front-End Developer<span class="exp__text--accent">
+                    Freelance</span
+                  >
+                </p>
+                <span class="exp__up-to">Freelance | fab 20015 - 2018</span>
+                <ul class="exp__list">
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="exp__works-list__item">
+                <p class="exp__text">
+                  Front-End Developer<span class="exp__text--accent">
+                    Freelance</span
+                  >
+                </p>
+                <span class="exp__up-to">Freelance | fab 20015 - 2018</span>
+                <ul class="exp__list">
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="exp__works-list__item">
+                <p class="exp__text">
+                  Front-End Developer<span class="exp__text--accent">
+                    Freelance</span
+                  >
+                </p>
+                <span class="exp__up-to">Freelance | fab 20015 - 2018</span>
+                <ul class="exp__list">
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                  <li class="exp__item">
+                    <p class="exp__info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section class="education">
+            <h2 class="education__title">Education</h2>
+            <ul class="education__list">
+              <li class="education__item">
+                <p class="education__text">IT School GoIT (Kyiv)</p>
+                <span class="education__text-year">2022 - 2022</span>
+                <span class="education__text-direction"
+                  >Fullstack Developer</span
+                >
+              </li>
+              <li class="education__item">
+                <p class="education__text">National Aviation University</p>
+                <span class="education__text-year">2008 - 2014</span>
+                <span class="education__text-direction">Architect</span>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

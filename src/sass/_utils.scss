@@ -1,4 +1,261 @@
+*,
+:before,
+:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Montserrat';
     font-style: normal;
+
+    >main {
+
+        .resume {
+            display: flex;
+            gap: 88px;
+            width: 1280px;
+            height: 1400px;
+            margin: 40px;
+            background: #FFFFFF;
+            box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+            margin-right: auto;
+            margin-left: auto;
+
+            &-sidebar {
+
+                width: 370px;
+                height: 100%;
+                box-shadow: 0px 0px 10px;
+                padding-top: 40px;
+
+                background-color: #1E2939;
+
+                .user-photo {
+                    margin-bottom: 51px;
+                }
+
+                .contacts {
+                    margin-bottom: 40px;
+                    margin-left: 40px;
+
+                    &__title {
+                        margin: 0;
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 27px;
+                        /* identical to box height */
+
+
+                        color: #FFFFFF;
+                    }
+
+                    &-address {
+                        &__contact {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 1.71;
+                            color: #FFFFFF;
+                            opacity: 0.5;
+                        }
+
+                        &__symbol {
+                            display: flex;
+                            margin-top: auto;
+                            margin-bottom: auto;
+
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 1.71;
+
+                            color: #FFFFFF;
+                        }
+
+                        &__list {
+                            padding: 0;
+                            list-style: none;
+                            margin-bottom: 47px;
+                        }
+
+                        &__item {
+                            display: flex;
+                        }
+
+                        &__symbol {
+                            margin-right: 12px;
+                        }
+                    }
+                }
+
+                .tech-skills {
+                    margin-left: 40px;
+                    margin-bottom: 44px;
+
+                    &__title {
+                        margin: 0;
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 27px;
+                        /* identical to box height */
+
+
+                        color: #FFFFFF;
+                        margin-bottom: 8px;
+                    }
+
+                    &__list {
+                        margin: 0;
+                        padding-left: 16px;
+                    }
+
+                    &__item {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 1.71;
+                        color: #FB6D3A;
+
+                        &-span {
+                            color: #ffffff;
+                        }
+                    }
+                }
+
+                .soft-skills {
+                    margin-left: 40px;
+
+                    &__title {
+                        margin-bottom: 8px;
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 27px;
+                        /* identical to box height */
+
+
+                        color: #FFFFFF;
+                    }
+
+                    &__list {
+                        padding-left: 16px;
+                    }
+
+                    &__item {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 1.71;
+                        color: #FB6D3A;
+
+                        &-span {
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+
+            &-info {
+                height: 100%;
+                width: calc(100% - 370px - 88px);
+                padding-top: 102px;
+
+                .hero {
+                    margin-bottom: 40px;
+
+                    &__text {
+                        display: block;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 17px;
+                        margin-bottom: 19px;
+                    }
+
+                    &__title {
+                        font-weight: 700;
+                        font-size: 45px;
+                        line-height: 55px;
+                        margin-bottom: 24px;
+                    }
+
+                    &__info {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        /* or 171% */
+
+
+                        color: #595959;
+                        width: 400px;
+                    }
+                }
+
+                .projects {
+                    margin-bottom: 51px;
+
+                    &__title {
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 27px;
+                        margin-bottom: 8px;
+                    }
+
+                    &__list {
+                        padding-left: 18px;
+                    }
+
+                    &__item {
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 24px;
+
+                        &-span {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 24px;
+                            /* or 171% */
+
+
+                            color: #595959;
+                            margin-left: 13px;
+                        }
+
+                        &-tech {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 24px;
+                            /* or 171% */
+
+
+                            color: #595959;
+                        }
+                    }
+                }
+
+                .exp {
+                    &__title {
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 27px;
+                        /* identical to box height */
+
+
+                        color: #000000;
+                        margin-bottom: 12px;
+                    }
+
+                    &__text {
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        /* identical to box height */
+
+
+                        color: #000000;
+
+                        &--accent {
+                            color: #FB6D3A;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

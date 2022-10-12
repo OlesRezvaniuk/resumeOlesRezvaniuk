@@ -16,7 +16,7 @@ body {
             display: flex;
             gap: 88px;
             width: 1280px;
-            height: 1460px;
+            height: 1500px;
             margin: 40px;
             background: #FFFFFF;
             box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -24,6 +24,33 @@ body {
             margin-left: auto;
 
             &-sidebar {
+                .languages {
+                    margin-left: 40px;
+
+                    &__title {
+                        color: #fff;
+                        margin-bottom: 8px;
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 27px;
+                    }
+
+                    &__list {
+                        padding-left: 16px;
+
+                    }
+
+                    &__item {
+                        color: #fb6d3a;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 1.71;
+
+                        &-span {
+                            color: #fff;
+                        }
+                    }
+                }
 
                 width: 370px;
                 height: 100%;
@@ -142,6 +169,7 @@ body {
                 }
 
                 .soft-skills {
+                    margin-bottom: 40px;
                     margin-left: 40px;
 
                     &__title {
@@ -193,7 +221,7 @@ body {
                         font-weight: 700;
                         font-size: 45px;
                         line-height: 55px;
-                        margin-bottom: 15px;
+                        margin-bottom: 10px;
                     }
 
                     &__info {
@@ -308,7 +336,7 @@ body {
                         font-size: 16px;
                         line-height: 20px;
                         /* identical to box height */
-                        margin-bottom: 11px;
+                        margin-bottom: 5px;
 
                         color: #000000;
 
@@ -319,13 +347,13 @@ body {
 
                     &__works-list {
                         &__item:first-child {
-                            margin-bottom: 20px;
+                            margin-bottom: 15px;
                         }
 
                         list-style: none;
 
                         &__item:last-child {
-                            margin-top: 20px;
+                            margin-top: 15px;
                         }
                     }
 
@@ -338,7 +366,7 @@ body {
 
                     &__up-to {
                         display: block;
-                        margin-bottom: 8px;
+                        margin-bottom: 5px;
                         font-weight: 400;
                         font-size: 12px;
                         line-height: 15px;

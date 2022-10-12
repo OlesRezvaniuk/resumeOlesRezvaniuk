@@ -38,7 +38,8 @@ body {
 
                 .contacts {
                     margin-bottom: 40px;
-                    margin-left: 40px;
+                    padding-left: 40px;
+                    padding-right: 40px;
 
                     &__title {
                         margin: 0;
@@ -85,6 +86,16 @@ body {
                         &__symbol {
                             margin-right: 12px;
                         }
+                    }
+                }
+
+                .social-list {
+                    list-style: none;
+                    display: flex;
+                    justify-content: center;
+
+                    &__item {
+                        padding: 10px;
                     }
                 }
 

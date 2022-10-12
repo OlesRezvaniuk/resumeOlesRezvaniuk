@@ -204,12 +204,16 @@ body {
 
 
                         color: #595959;
-                        width: 400px;
+                        width: 700px;
                     }
                 }
 
                 .projects {
                     margin-bottom: 51px;
+
+                    &__item-span>a:last-child {
+                        margin-right: 10px;
+                    }
 
                     &__title {
                         font-weight: 700;
@@ -226,6 +230,17 @@ body {
                         font-weight: 700;
                         font-size: 14px;
                         line-height: 24px;
+
+                        &-icon {
+                            display: inline-flex;
+                            position: relative;
+                            top: 3px;
+                            /* left: 2px
+                                px
+                                ; */
+                            margin-right: 10px;
+                            margin-left: 10px;
+                        }
 
                         &-span {
                             font-weight: 400;
